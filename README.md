@@ -12,3 +12,7 @@ git push -u origin origin
 git remote add origin https://github.com/jgq-tech/python_design_patterns.git
 git branch -M origin
 git push -u origin origin
+
+#### github代理
+走 socks5 代理（如 Shadowsocks）
+git config --local http.proxy "socks5://127.0.0.1:1086"
